@@ -1,0 +1,91 @@
+
+
+.icons-big{
+  color: black;
+  font-size: 3rem;
+}
+
+.single-col{
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.log-icon{
+  font-size: 2rem;
+}
+
+
+
+.upload{
+ width: 100px;
+ position: relative;
+ margin: auto;
+}       
+
+
+.upload img{
+  border-radius: 50%;
+  border: 6px solid #eaeaea;
+}
+
+.round{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #00ba40;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.upload .round input[type="file"]{
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+input[type=file]::-webkit-file-upload-button{
+  cursor: pointer;
+}
+
+.cen{
+  text-align: center;
+}
+
+
+
+.grad{
+background-image: url("../public/kamat/navbg1.png");
+background-size: auto;
+}
+
+.textc{
+  text-align: center;
+  margin-left: 500px;
+}
+
+.textver{
+  text-align: center;
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+Label:hover{
+  color: aqua;
+}
+
+#car-items{
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+body{
+  overflow-x: hidden;
+}
